@@ -37,7 +37,7 @@ def speedTest():
     if (download):
         testing = False
         time.sleep(3)
-        print('Velocidade de Download: ', download)
+        print('gg: ', download)
         downloadInt = float(download)
         downloadToDisplay = math.ceil(downloadInt)
         tm.show(str(downloadToDisplay))
